@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.wrdofdday{
+    width: 80%;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+
+.word{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bckdrp{
+    width: 48%;
+    height: 80%;
+}
+
+.nm{
+    font-family: 'Noto Serif Display', serif;
+    font-size: 5.5rem;
+}
+.dets, .wrddfhd, .wrdohd{
+    color: rgb(25, 112, 155);
+}
+.prtofspch{
+    font-style: italic;
+}
+.dvd{
+    width: 40%;
+}
+.wrddf, .exmpl, .origin{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.wrddfhd, .wrdohd{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ddef, .odef{
+    text-align: left;
+}
+.exmpl{
+    padding: 4% 0;
+    width: 100%;
+}
